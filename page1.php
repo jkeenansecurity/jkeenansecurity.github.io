@@ -19,36 +19,52 @@
         </ul>
     </nav>
     </header>
-    <aside id='sidebar'>
-        <section>
-        <h2>Contact Us</h2>
-            <p>Give us a call today and speak with one of our professional security consulatants
-            who will find out what you're looking for and devise a plan to match.
-            </p>
-        
-        
+    <aside>
+        <section class = 'sidebar'>
+            <article>
+                <h2>Contact Us</h2>
+                <p>Give us a call today and speak with one of our professional security consulatants
+                who will find out what you're looking for and devise a plan to match.
+                </p>
+
+
+            </article>
+            <br />
+            <article>
+                <h2>Payment Options Include</h2>
+                <ul>
+                <li class = 'card'><img src='mastercard.png' alt='Mastercard'width='90'height='50'</li>
+                <li class = 'card'><img src='visa.jpg'width='90' height = '50' alt='Visa'</li>
+                <li class = 'card'><img src='amex.jpg'width='90' height = '50' alt='American Express'</li>
+                <li class = 'card'><img src='discover.gif'width='90'height='50' alt='Discover'</li>
+                <li class = 'card' id='debit'><img src='debit.jpg' width='98'height='50'alt='Debit'</li>
+                </ul>
+            </article>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <hr />
+
+            <article>
+            <h2>Call us today at: (800)705-8894</h2>
+            </article>
         </section>
-        <br />
-    <section>
-        <h2>Payment Options Include</h2>
-        <ul>
-        <li class = 'card'><img src='mastercard.png' alt='Mastercard'width='90'height='50'</li>
-        <li class = 'card'><img src='visa.jpg'width='90' height = '50' alt='Visa'</li>
-        <li class = 'card'><img src='amex.jpg'width='90' height = '50' alt='American Express'</li>
-        <li class = 'card'><img src='discover.gif'width='90'height='50' alt='Discover'</li>
-        <li class = 'card' id='debit'><img src='debit.jpg' width='98'height='50'alt='Debit'</li>
-        </ul>
-        </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <hr />
+        <section class = 'sidebar'>
+            <article>
+                <h2>Address:</h2>
+                <p>116 Jay St. Stony Point, NY 10980</p>
+            
+            </article>
+            <hr />
+            <article>
+                <h2>In Business Since 2012</h2>
+            </article>
+            
+            
         
-        <section>
-        <h2>Call us today at: (800)705-8894</h2>
         
         </section>
     </aside>
@@ -56,12 +72,20 @@
         <header>
         <img src ='nyc2.png' alt='New York City'class='sectionheader'height='600'width='100%'/>
         </header>
-    <article>
-    <iframe src='Contact/contactform.php' frameborder='0'
+    <article id='form'>
+    <iframe src='NiceSimpleContactForm/index.html' frameborder='0'
 width='100%' height='600' allowtransparency='true'></iframe>
 
     </article>
+    <hr />
     </section>
+    <br />
+    
+    <footer id = 'foot'>
+        
+        <p>&copy;2015 JKeenan Security</p>
+        
+    </footer>
     <br />
     
     
